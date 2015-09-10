@@ -106,4 +106,35 @@ One thing to know about the `gets` method is that it captures a new line charact
 
 ## Instructions
 
+### Part I: The 	`greeter` Method
+
+Before we worry about building the CLI, we need to build the core functionality of our program––that is, the actions that will be carried out once we obtain the user's input. That code belongs in the `lib` directory. 
+
+Open up `lib/hello_ruby_programmer.rb`. This is where we'll be writing our code. This part of the lab is test-driven. So, run the test for *just this section* by typing `spec/01_hello_ruby_programmer.rb` in your terminal. 
+
+In order to get our tests passing, we'll need to define a method, `#greeter` that takes in an argument of a person's name and uses string interpolation to return `"Hi, #{name}! Welcome to the wonderful world of Ruby programming."`. 
+
+Once you get these tests passing, you're ready to move on to the next section. 
+
+### Part II: The CLI
+
+Our CLI code belongs in the `bin` directory. Open up `bin/greeter`. Notice that, according to convention, our executable file does not have a file extension (such as `.rb`). Take a look at the first lines of the file: 
+
+```ruby
+#!/usr/bin/env ruby
+require_relative '../lib/hello_ruby_programmer.rb'
+```
+First, we have our shebang line that tells the terminal which interpreter to use to execute the remainder of the file. Second, we are requiring the `hello_ruby_programmer.rb` file, from within the `lib` directory. This gives our executable file access to whatever code we write in that file. 
+
+If we run `learn` we can see from the test output that the following is required: 
+
+1. Use `puts` to output the string "Hi! Welcome to the wonderful world of Ruby programming."
+2. Use `puts` to prompt the user for input with the phrase: "Please enter your name so that we can greet you more personally:"
+3. Use the `gets.strip` method to store the user's input and set it equal to a variable. 
+4. Use `puts` to output the return value of calling the `#greeting` method, with the argument of the user's input. 
+
+
+
+
+
   
