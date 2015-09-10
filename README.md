@@ -72,7 +72,7 @@ def your_name_is
 	puts "Your name is: #{response}"
 end
 ```
-On the second line of the method, the `gets` method is being called. It has the effect of capturing the last thing that the user typed into the terminal and setting a variable, `response`, equal to that string. Then, the following line uses that `response` variable in string interpolation. 
+On the second line of the method, the `gets` method is being called. Calling the `gets` method captures the last thing the user typed into the terminal. The return value of `gets` is the text typed into the terminal. So, setting a variable, `respone`, equal to invoking the `gets` method sets that variable equal to the return value of `gets`––the last thing types into tht terminal. Then, the following line uses that `response` variable in string interpolation. Once we store the return value of `gets` in a variable, we can treat that variable as we would any variable pointing to a string––interpolate with it, convert it to an integer, add it to an array, you name it.
 
 ### Advanced: How `gets` gets input from the terminal
 We already know, in general terms, how the `puts` method outputs text to the terminal, but here's a reminder from an earlier lesson, "Puts, Print and Return":
