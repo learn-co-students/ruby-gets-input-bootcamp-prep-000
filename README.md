@@ -27,7 +27,7 @@ Let's take a closer look at the structure of this applicatoin.
 
 ## Project Structure
 
-**[Download the Source for this Lesson](https://github.com/learn-co-curriculum/ruby-gets-input/archive/1.0.0.zip).**
+**[Download the Source for this Lesson](https://github.com/learn-co-curriculum/ruby-gets-input/archive/1.0.0.zip) and open the directory in your text editor.**
 
 Check out the file structure below.
 
