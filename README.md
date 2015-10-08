@@ -23,11 +23,27 @@ In this exercise, we'll be familiarizing ourselves with a CLI application that h
 
 Note that you are greeted, asked to provide input and then greeted again, this time with a phrase that uses the input you provided.
 
-Let's take a closer look at the structure of this applicatoin.
+Let's take a closer look at the structure of this application.
+
+### Code Along Instructions
+
+If anything breaks during the steps below and you can't access this lessons' sample code, don't worry. Read the lesson and you'll be able to follow along and continue by clicking the lesson "I'm Done".
+
+#### OS X
+
+[Download the Source for this Lesson](https://github.com/learn-co-curriculum/ruby-gets-input/archive/1.0.0.zip) and open the directory in your text editor.
+
+#### Nitrous / Command Line
+
+1. Go to your home directory by `cd ~` in your Terminal.
+
+2. Clone this README's repository on GitHub with: `git clone git@github.com:learn-co-curriculum/ruby-gets-input.git`
+
+3. `cd` into the directory with: `cd ruby-gets-input`
+
+4. Open the directory in your file browser.
 
 ## Project Structure
-
-**[Download the Source for this Lesson](https://github.com/learn-co-curriculum/ruby-gets-input/archive/1.0.0.zip) and open the directory in your text editor.**
 
 Check out the file structure below.
 
