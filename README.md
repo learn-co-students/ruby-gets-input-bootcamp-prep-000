@@ -31,17 +31,19 @@ If anything breaks during the steps below and you can't access this lessons' sam
 
 #### OS X
 
-[Download the Source for this Lesson](https://github.com/learn-co-curriculum/ruby-gets-input/archive/1.0.0.zip) and open the directory in your text editor.
+[Download the Source for this Lesson](https://github.com/learn-co-curriculum/ruby-gets-input/archive/master.zip) and open the directory in your text editor.
 
 #### Nitrous / Command Line
 
-1. Go to your home directory by `cd ~` in your Terminal.
+1. Open your Nitrous IDE.
 
-2. Clone this README's repository on GitHub with: `git clone git@github.com:learn-co-curriculum/ruby-gets-input.git`
+2. Go to your home directory by `cd ~` in your Terminal.
 
-3. `cd` into the directory with: `cd ruby-gets-input`
+3. Clone this README's repository on GitHub with: `git clone git@github.com:learn-co-curriculum/ruby-gets-input.git`
 
-4. Open the directory in your file browser.
+4. `cd` into the directory with: `cd ruby-gets-input`
+
+5. Open the directory in your file browser.
 
 ## Project Structure
 
