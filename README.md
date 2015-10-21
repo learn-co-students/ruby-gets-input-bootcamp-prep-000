@@ -35,7 +35,7 @@ If anything breaks during the steps below and you can't access this lessons' sam
 
 #### Nitrous / Command Line
 
-1. Open your Nitrous IDE.
+1. Open your Nitrous IDE or Terminal.
 
 2. Go to your home directory by `cd ~` in your Terminal.
 
