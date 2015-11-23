@@ -2,7 +2,7 @@
 
 1. Understand the significance of capturing and operating on user input in a CLI application.
 2. Learn how to create a prompt for user input in a CLI.
-3. Learn to use the `#gets` method to capture, store and operate on that inupt.
+3. Learn to use the `#gets` method to capture, store and operate on that input.
 
 ## User Input and the CLI
 
