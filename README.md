@@ -163,3 +163,5 @@ The `gets` method wraps the `$stdin` variable, reading text from the standard in
 One thing to know about the `#gets` method is that it captures a new line character at the end of whatever input it is storing. We don't want extra whitespace or new lines to be appended to the user input we are trying to store. So, we can chain a call to the `#strip`method to remove any new lines or trailing whitespace.
 
 The `#chomp` method works similarly, and you are likely to see `#gets.chomp` used in some examples online. The `#chomp` method removes any new lines at the end of a string while the `#strip` method removes both trailing whitespace *and* new lines.
+
+<a href='https://learn.co/lessons/ruby-gets-input' data-visibility='hidden'>View this lesson on Learn.co</a>
