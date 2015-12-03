@@ -152,7 +152,7 @@ We already know, in general terms, how the `puts` method outputs text to the ter
 
 >How do the puts and print methods actually output text to your console? They use the `$stdout` global variable provided to us by Ruby. You don't need to worry about global variables right now. For the purposes of understanding how puts and print work, we just need to understand the following:
 
->Your computer has an stdout file that communicates with your operating system. So, puts and print actually send output to the `$stdout` variable. The `$stdout` variable sends that information to the stdout file on your computer which in turn communicates with your operating system which in turn outputs that information to the console.
+>Your computer has a stdout file that communicates with your operating system. So, puts and print actually send output to the `$stdout` variable. The `$stdout` variable sends that information to the stdout file on your computer which in turn communicates with your operating system which in turn outputs that information to the console.
 
 The `gets` method works similarly. Just like your computer has a standard output file, it has a standard input file. When you enter text in your terminal, you are writing to that file. And, just like Ruby has a `$stdout` global variable, it has a `$stdin` global variable. The `$stdin` variable holds a stream from the standard input. It can be used to read input from the console.
 
@@ -163,5 +163,3 @@ The `gets` method wraps the `$stdin` variable, reading text from the standard in
 One thing to know about the `#gets` method is that it captures a new line character at the end of whatever input it is storing. We don't want extra whitespace or new lines to be appended to the user input we are trying to store. So, we can chain a call to the `#strip`method to remove any new lines or trailing whitespace.
 
 The `#chomp` method works similarly, and you are likely to see `#gets.chomp` used in some examples online. The `#chomp` method removes any new lines at the end of a string while the `#strip` method removes both trailing whitespace *and* new lines.
-
-<a href='https://learn.co/lessons/ruby-gets-input' data-visibility='hidden'>View this lesson on Learn.co</a>
