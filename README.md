@@ -1,8 +1,8 @@
 ## Objectives
 
 1. Understand the significance of capturing and operating on user input in a CLI application.
-2. Learn how to create a prompt for user input in a CLI.
-3. Learn to use the `#gets` method to capture, store and operate on that input.
+2. Create a prompt for user input in a CLI.
+3. Use the `#gets` method to capture, store, and operate on that input.
 
 ## User Input and the CLI
 
@@ -19,7 +19,7 @@ It is inarguable that the advent of personal computing has changed the world and
  3. Capture and store that input.
  4. Do something with that input.
 
-In this exercise, we'll be familiarizing ourselves with a CLI application that has already been built. To experience the user-flow of this application, run `ruby bin/greeting` in your terminal, from within the directory of this project.
+In this exercise, we'll be familiarizing ourselves with a CLI application that has already been built. To experience the user-flow of this application, first fork and clone this repository. Then run `ruby bin/greeting` in your terminal, from within the directory of this project.
 
 Note that you are greeted, asked to provide input and then greeted again, this time with a phrase that uses the input you provided.
 
