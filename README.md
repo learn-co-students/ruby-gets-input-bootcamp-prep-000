@@ -67,7 +67,7 @@ Open up `bin/greeting`. Notice that we are requiring the `lib/hello_ruby_program
 
 ### The `lib` Directory
 
-The `lib` directory is where we place the code that our program relies on to run. It is the meat of our CLI application. Our executable file *requires* the files in the `lib` directory and uses the code (for example, calling on any methods we might define) to to enact the CLI.
+The `lib` directory is where we place the code that our program relies on to run. It is the meat of our CLI application. Our executable file *requires* the files in the `lib` directory and uses the code (for example, calling on any methods we might define) to enact the CLI.
 
 Open up `lib/hello_ruby_programmer.rb` file. Notice that it defines a `#greeting` method that is called in the `bin/greeting` file. This is the pattern you'll become familiar with for CLI applications––defining methods in a `lib` directory and calling those methods in `bin` executable files to actually run the program.
 
@@ -163,3 +163,5 @@ The `gets` method wraps the `$stdin` variable, reading text from the standard in
 One thing to know about the `#gets` method is that it captures a new line character at the end of whatever input it is storing. We don't want extra whitespace or new lines to be appended to the user input we are trying to store. So, we can chain a call to the `#strip`method to remove any new lines or trailing whitespace.
 
 The `#chomp` method works similarly, and you are likely to see `#gets.chomp` used in some examples online. The `#chomp` method removes any new lines at the end of a string while the `#strip` method removes both trailing whitespace *and* new lines.
+
+<a href='https://learn.co/lessons/ruby-gets-input' data-visibility='hidden'>View this lesson on Learn.co</a>
