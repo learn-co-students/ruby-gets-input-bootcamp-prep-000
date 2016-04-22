@@ -19,18 +19,13 @@ It is inarguable that the advent of personal computing has changed the world and
  3. Capture and store that input.
  4. Do something with that input.
 
-In this exercise, we'll be familiarizing ourselves with a CLI application that has already been built. To experience the user-flow of this application, first fork and clone this repository. Then run `ruby bin/greeting` in your terminal, from within the directory of this project.
+In this exercise, we'll be familiarizing ourselves with a CLI application that has already been built. To experience the user-flow of this application, first open this lab. Then run `ruby bin/greeting` in your terminal, from within the directory of this project.
 
 Note that you are greeted, asked to provide input and then greeted again, this time with a phrase that uses the input you provided.
 
 Let's take a closer look at the structure of this application.
 
 ### Code Along Instructions
-
-‘Go to your `code` directory by typing `cd ~/code` in your Terminal'
-
-‘Run `atom README.md` in your Terminal'
-
 
 If anything breaks during the steps below and you can't access this lessons' sample code, don't worry. Read the lesson and you'll be able to follow along and continue by clicking the lesson "I'm Done".
 
