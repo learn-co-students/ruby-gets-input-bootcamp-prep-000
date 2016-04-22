@@ -19,7 +19,14 @@ It is inarguable that the advent of personal computing has changed the world and
  3. Capture and store that input.
  4. Do something with that input.
 
-In this exercise, we'll be familiarizing ourselves with a CLI application that has already been built. To experience the user-flow of this application, first open this lab. Then run `ruby bin/greeting` in your terminal, from within the directory of this project.
+In this exercise, we'll be familiarizing ourselves with a CLI application that has already been built. To experience the user-flow of this application, first open this lab.
+
+You'll need to modify the `greet` method in `lib/hello_ruby_programmer.rb` so
+that it accepts an argument called `name`.
+
+**HINT:** Just change the line that reads `def greet` to `def greet(name)`.
+
+Then run `ruby bin/greeting` in your terminal, from within the directory of this project.
 
 Note that you are greeted, asked to provide input and then greeted again, this time with a phrase that uses the input you provided.
 
@@ -27,7 +34,7 @@ Let's take a closer look at the structure of this application.
 
 ### Code Along Instructions
 
-The purpose of this lesson is to explain the structure of a CLI app. If you run `learn` your test will pass so there is nothing you need to change to the code here. However, **read and follow along** with the below text. 
+The purpose of this lesson is to explain the structure of a CLI app. If you followed the instructions above, you can run `learn` and your test will pass. However, **read and follow along** with the below text.
 
 
 ## Project Structure
