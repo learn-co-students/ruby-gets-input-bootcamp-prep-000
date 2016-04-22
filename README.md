@@ -27,7 +27,7 @@ Let's take a closer look at the structure of this application.
 
 ### Code Along Instructions
 
-If anything breaks during the steps below and you can't access this lessons' sample code, don't worry. Read the lesson and you'll be able to follow along and continue by clicking the lesson "I'm Done".
+The purpose of this lesson is to explain the structure of a CLI app. If you run `learn` your test will pass so there is nothing you need to change to the code here. However, **read and follow along** with the below text. 
 
 
 ## Project Structure
