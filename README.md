@@ -27,23 +27,13 @@ Let's take a closer look at the structure of this application.
 
 ### Code Along Instructions
 
+‘Go to your `code` directory by typing `cd ~/code` in your Terminal'
+
+‘Run `atom README.md` in your Terminal'
+
+
 If anything breaks during the steps below and you can't access this lessons' sample code, don't worry. Read the lesson and you'll be able to follow along and continue by clicking the lesson "I'm Done".
 
-#### OS X
-
-[Download the Source for this Lesson](https://github.com/learn-co-curriculum/ruby-gets-input/archive/master.zip) and open the directory in your text editor.
-
-#### Nitrous / Command Line
-
-1. Open your Nitrous IDE or Terminal.
-
-2. Go to your home directory by `cd ~` in your Terminal.
-
-3. Clone this README's repository on GitHub with: `git clone git@github.com:learn-co-curriculum/ruby-gets-input.git`
-
-4. `cd` into the directory with: `cd ruby-gets-input`
-
-5. Open the directory in your file browser.
 
 ## Project Structure
 
