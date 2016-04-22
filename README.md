@@ -21,6 +21,8 @@ It is inarguable that the advent of personal computing has changed the world and
 
 In this exercise, we'll be familiarizing ourselves with a CLI application that has already been built. To experience the user-flow of this application, first open this lab.
 
+Run `learn` 
+
 You'll need to modify the `greet` method in `lib/hello_ruby_programmer.rb` so
 that it accepts an argument called `name`.
 
@@ -31,10 +33,6 @@ Then run `ruby bin/greeting` in your terminal, from within the directory of this
 Note that you are greeted, asked to provide input and then greeted again, this time with a phrase that uses the input you provided.
 
 Let's take a closer look at the structure of this application.
-
-### Code Along Instructions
-
-The purpose of this lesson is to explain the structure of a CLI app. If you followed the instructions above, you can run `learn` and your test will pass. However, **read and follow along** with the below text.
 
 
 ## Project Structure
@@ -138,6 +136,8 @@ The return value of `gets` is the text typed into the terminal. So, setting a va
 
 Once we store the return value of `gets` in a variable, we can treat that variable as we would any variable pointing to a string––interpolate with it, convert it to an integer, add it to an array, you name it.
 
+Remember to run `learn submit` so you can move on to the next lesson. 
+
 ### Advanced: How `gets` gets input from the terminal
 
 We already know, in general terms, how the `puts` method outputs text to the terminal, but here's a reminder from an earlier lesson, "Puts, Print and Return":
@@ -155,5 +155,7 @@ The `gets` method wraps the `$stdin` variable, reading text from the standard in
 One thing to know about the `#gets` method is that it captures a new line character at the end of whatever input it is storing. We don't want extra whitespace or new lines to be appended to the user input we are trying to store. So, we can chain a call to the `#strip`method to remove any new lines or trailing whitespace.
 
 The `#chomp` method works similarly, and you are likely to see `#gets.chomp` used in some examples online. The `#chomp` method removes any new lines at the end of a string while the `#strip` method removes both trailing whitespace *and* new lines.
+
+
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-gets-input' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
