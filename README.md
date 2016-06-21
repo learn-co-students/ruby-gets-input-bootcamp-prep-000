@@ -23,10 +23,10 @@ In this exercise, we'll be familiarizing ourselves with a CLI application that h
 
 Run `learn` 
 
-You'll need to modify the `greet` method in `lib/hello_ruby_programmer.rb` so
+You'll need to modify the `greeting` method in `lib/hello_ruby_programmer.rb` so
 that it accepts an argument called `name`.
 
-**HINT:** Just change the line that reads `def greet` to `def greet(name)`.
+**HINT:** Just change the line that reads `def greeting` to `def greeting(name)`.
 
 Then run `ruby bin/greeting` in your terminal, from within the directory of this project.
 
@@ -159,3 +159,5 @@ The `#chomp` method works similarly, and you are likely to see `#gets.chomp` use
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-gets-input' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-gets-input'>gets CLI Input</a> on Learn.co and start learning to code for free.</p>
