@@ -1,3 +1,5 @@
-def greeting
-  puts "Hi, #{name}! Welcome to the wonderful world of Ruby programming."
+
+
+def greeting(name)
+  puts "Hi, you! Welcome to the wonderful world of Ruby programming."
 end
