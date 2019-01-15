@@ -6,4 +6,4 @@ describe 'greeting' do
 
     greeting("you")
   end
-end
+end 
