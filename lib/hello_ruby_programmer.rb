@@ -1,3 +1,9 @@
-def greeting
-  puts "Hi, #{name}! Welcome to the wonderful world of Ruby programming."
+def greeting(response)
+  
+  if(response != "pizza")
+    puts "Well my favorite food is pizza."
+  else 
+    puts "My favorite food is also pizza!"
+  end
+  
 end
