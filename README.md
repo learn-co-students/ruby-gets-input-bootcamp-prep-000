@@ -39,9 +39,10 @@ Check out the file structure below.
 
 ```
 bin
-   |–– 'def greeting(name)'
+   |–– greeting
 lib
    |–– hello_ruby_programmer.rb
+
 ...
 ```  
 
