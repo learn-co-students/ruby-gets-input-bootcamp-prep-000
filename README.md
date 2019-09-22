@@ -20,7 +20,7 @@ The basic flow of a CLI app goes something like this:
 
 In this exercise, we'll be familiarizing ourselves with a CLI application that has already been built. To experience the user-flow of this application, first open this lab.
 
-Run `learn` 
+Run `learn`
 
 You'll need to modify the `greeting` method in `lib/hello_ruby_programmer.rb` so
 that it accepts an argument called `name`.
@@ -39,7 +39,7 @@ Check out the file structure below.
 
 ```
 bin
-   |–– greeting
+   |–– 'def greeting(name)'
 lib
    |–– hello_ruby_programmer.rb
 ...
